@@ -1,0 +1,17 @@
+:toc: macro
+:stern: https://github.com/wercker/stern[Stern]
+
+= link:README.adoc[Home]
+
+The list of tools that every developer should have installed.
+
+---
+
+toc::[]
+
+---
+
+== Kubernetes
+
+{stern}::
+Kubernetes utility to easily see colored logs from multiple containers.
