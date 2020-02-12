@@ -15,3 +15,9 @@ toc::[]
 
 {stern}::
 Kubernetes utility to easily see colored logs from multiple containers.
+
+== MacOS
+
+=== Dim the icons of hidden applications in dock
+
+`defaults write com.apple.Dock showhidden -bool YES && killall Dock`
