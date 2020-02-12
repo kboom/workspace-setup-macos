@@ -13,6 +13,8 @@ toc::[]
 
 == Kubernetes
 
+=== Tools
+
 {stern}::
 Kubernetes utility to easily see colored logs from multiple containers.
 
