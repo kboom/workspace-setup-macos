@@ -1,5 +1,6 @@
 :toc: macro
 :stern: https://github.com/wercker/stern[Stern]
+:proxyman: https://proxyman.io[Proxyman]
 
 = link:README.adoc[Home]
 
@@ -20,6 +21,12 @@ Kubernetes utility to easily see colored logs from multiple containers.
 
 == MacOS
 
-=== Dim the icons of hidden applications in dock
+=== Networking
 
+{proxyman}::
+A tool for sniffing the network traffic in a pleasant and MacOS-compliant way.
+
+=== Tricks
+
+Dim the icons of hidden applications in dock::
 `defaults write com.apple.Dock showhidden -bool YES && killall Dock`
