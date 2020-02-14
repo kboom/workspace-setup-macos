@@ -1,6 +1,7 @@
 :toc: macro
 :stern: https://github.com/wercker/stern[Stern]
 :kubectx: https://github.com/ahmetb/kubectx[Kubectx & Kubens]
+:kubectl-tree: https://awesomeopensource.com/project/ahmetb/kubectl-tree[kubectl-tree]
 :proxyman: https://proxyman.io[Proxyman]
 :fzf: https://github.com/junegunn/fzf[fzf]
 
@@ -28,6 +29,9 @@ Kubernetes utility to easily see colored logs from multiple containers.
 
 {kubectx}::
 Small utility to switch through clusters and namespaces smoothly.
+
+{kubectl-tree}::
+Can present dependency trees of Kubernetes resources.
 
 == MacOS
 
