@@ -1,5 +1,6 @@
 :toc: macro
 :stern: https://github.com/wercker/stern[Stern]
+:kubectx: https://github.com/ahmetb/kubectx[Kubectx & Kubens]
 :proxyman: https://proxyman.io[Proxyman]
 
 = link:README.adoc[Home]
@@ -18,6 +19,9 @@ toc::[]
 
 {stern}::
 Kubernetes utility to easily see colored logs from multiple containers.
+
+{kubectx}::
+Small utility to switch through clusters and namespaces smoothly.
 
 == MacOS
 
