@@ -2,6 +2,7 @@
 :stern: https://github.com/wercker/stern[Stern]
 :kubectx: https://github.com/ahmetb/kubectx[Kubectx & Kubens]
 :proxyman: https://proxyman.io[Proxyman]
+:fzf: https://github.com/junegunn/fzf[fzf]
 
 = link:README.adoc[Home]
 
@@ -12,6 +13,11 @@ The list of tools that every developer should have installed.
 toc::[]
 
 ---
+
+== Shell
+
+{fzf}::
+Command line fuzzy finder allows to select the command ending interactively.
 
 == Kubernetes
 
