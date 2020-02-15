@@ -6,6 +6,7 @@
 :fzf: https://github.com/junegunn/fzf[fzf]
 :silverSearcher: https://github.com/ggreer/the_silver_searcher[the silver searcher]
 :how2: https://github.com/santinic/how2[how2]
+:navi: https://github.com/denisidoro/navi[navi]
 
 = link:README.adoc[Home]
 
@@ -27,6 +28,9 @@ Very fast an powerful file search tool.
 
 {how2}::
 Search for commands directy from the command line.
+
+{navi}::
+Personalised history of easily querable commands.
 
 == Kubernetes
 
