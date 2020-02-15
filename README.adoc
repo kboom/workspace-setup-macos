@@ -4,6 +4,7 @@
 :kubectl-tree: https://awesomeopensource.com/project/ahmetb/kubectl-tree[kubectl-tree]
 :proxyman: https://proxyman.io[Proxyman]
 :fzf: https://github.com/junegunn/fzf[fzf]
+:silverSearcher: https://github.com/ggreer/the_silver_searcher[the silver searcher]
 
 = link:README.adoc[Home]
 
@@ -19,6 +20,9 @@ toc::[]
 
 {fzf}::
 Command line fuzzy finder allows to select the command ending interactively.
+
+{silverSearcher}::
+Very fast an powerful file search tool.
 
 == Kubernetes
 
