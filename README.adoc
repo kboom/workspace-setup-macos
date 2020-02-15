@@ -10,6 +10,7 @@
 :forgit: https://github.com/wfxr/forgit[forgit]
 :exa: https://github.com/ogham/exa[exa]
 :bat: https://github.com/sharkdp/bat[bat]
+:htop: https://github.com/hishamhm/htop[htop]
 
 = link:README.adoc[Home]
 
@@ -43,6 +44,10 @@ Modern replacement for ls.
 
 {bat}::
 Modern replacement for cat.
+
+{htop}::
+Modern replacement for htop.
+
 
 == Kubernetes
 
