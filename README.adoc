@@ -9,6 +9,7 @@
 :navi: https://github.com/denisidoro/navi[navi]
 :forgit: https://github.com/wfxr/forgit[forgit]
 :exa: https://github.com/ogham/exa[exa]
+:bat: https://github.com/sharkdp/bat[bat]
 
 = link:README.adoc[Home]
 
@@ -39,6 +40,9 @@ Easily use git from the command line. Features fzf.
 
 {exa}::
 Modern replacement for ls.
+
+{bat}::
+Modern replacement for cat.
 
 == Kubernetes
 
