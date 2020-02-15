@@ -8,6 +8,7 @@
 :how2: https://github.com/santinic/how2[how2]
 :navi: https://github.com/denisidoro/navi[navi]
 :forgit: https://github.com/wfxr/forgit[forgit]
+:exa: https://github.com/ogham/exa[exa]
 
 = link:README.adoc[Home]
 
@@ -35,6 +36,9 @@ Personalised history of easily querable commands.
 
 {forgit}::
 Easily use git from the command line. Features fzf.
+
+{exa}::
+Modern replacement for ls.
 
 == Kubernetes
 
