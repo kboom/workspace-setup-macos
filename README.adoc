@@ -7,6 +7,7 @@
 :silverSearcher: https://github.com/ggreer/the_silver_searcher[the silver searcher]
 :how2: https://github.com/santinic/how2[how2]
 :navi: https://github.com/denisidoro/navi[navi]
+:forgit: https://github.com/wfxr/forgit[forgit]
 
 = link:README.adoc[Home]
 
@@ -31,6 +32,9 @@ Search for commands directy from the command line.
 
 {navi}::
 Personalised history of easily querable commands.
+
+{forgit}::
+Easily use git from the command line. Features fzf.
 
 == Kubernetes
 
