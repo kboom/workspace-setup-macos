@@ -11,6 +11,7 @@
 :exa: https://github.com/ogham/exa[exa]
 :bat: https://github.com/sharkdp/bat[bat]
 :htop: https://github.com/hishamhm/htop[htop]
+:autoenv: https://github.com/inishchith/autoenv[autoenv]
 
 = link:README.adoc[Home]
 
@@ -48,6 +49,8 @@ Modern replacement for cat.
 {htop}::
 Modern replacement for htop.
 
+{autoenv}::
+Runs activate script when going into a directory and deactive script when going out.
 
 == Kubernetes
 
