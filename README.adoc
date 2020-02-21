@@ -12,6 +12,7 @@
 :bat: https://github.com/sharkdp/bat[bat]
 :htop: https://github.com/hishamhm/htop[htop]
 :autoenv: https://github.com/inishchith/autoenv[autoenv]
+:thefuck: https://github.com/nvbn/thefuck[thefuck]
 
 = link:README.adoc[Home]
 
@@ -51,6 +52,9 @@ Modern replacement for htop.
 
 {autoenv}::
 Runs activate script when going into a directory and deactive script when going out.
+
+{thefuck}::
+Corrects the last ill-entered command.
 
 == Kubernetes
 
