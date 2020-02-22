@@ -131,4 +131,3 @@ Make Dock icons of hidden applications translucent::
 
 Don’t show recent applications in Dock::
 `defaults write com.apple.dock show-recents -bool false`
-```
