@@ -50,9 +50,6 @@ Modern replacement for cat.
 {htop}::
 Modern replacement for htop.
 
-{autoenv}::
-Runs activate script when going into a directory and deactive script when going out.
-
 {thefuck}::
 Corrects the last ill-entered command.
 
