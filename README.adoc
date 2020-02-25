@@ -13,6 +13,7 @@
 :htop: https://github.com/hishamhm/htop[htop]
 :autoenv: https://github.com/inishchith/autoenv[autoenv]
 :thefuck: https://github.com/nvbn/thefuck[thefuck]
+:netshoot: https://github.com/nicolaka/netshoot[netshoot]
 
 = link:README.adoc[Home]
 
@@ -128,3 +129,10 @@ Make Dock icons of hidden applications translucent::
 
 Don’t show recent applications in Dock::
 `defaults write com.apple.dock show-recents -bool false`
+
+== Docker
+
+=== Useful containers
+
+{netshoot}::
+A swiss knife for network debugging.
