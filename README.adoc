@@ -15,6 +15,7 @@
 :thefuck: https://github.com/nvbn/thefuck[thefuck]
 :netshoot: https://github.com/nicolaka/netshoot[netshoot]
 :sourcetree: https://www.sourcetreeapp.com[Sourcetree]
+:omnifocus: https://www.omnigroup.com/omnifocus[OmniFocus]
 
 = link:README.adoc[Home]
 
@@ -70,12 +71,11 @@ Can present dependency trees of Kubernetes resources.
 
 == MacOS
 
-=== Git
+{omnifocus}::
+Great task management software.
 
 {sourcetree}::
-The best repository manager.
-
-=== Networking
+The best GIT repository manager.
 
 {proxyman}::
 A tool for sniffing the network traffic in a pleasant and MacOS-compliant way.
