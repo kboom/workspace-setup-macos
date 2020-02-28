@@ -14,6 +14,7 @@
 :autoenv: https://github.com/inishchith/autoenv[autoenv]
 :thefuck: https://github.com/nvbn/thefuck[thefuck]
 :netshoot: https://github.com/nicolaka/netshoot[netshoot]
+:sourcetree: https://www.sourcetreeapp.com[sourcetree]
 
 = link:README.adoc[Home]
 
@@ -68,6 +69,11 @@ Small utility to switch through clusters and namespaces smoothly.
 Can present dependency trees of Kubernetes resources.
 
 == MacOS
+
+=== Git
+
+{sourcetree}::
+The best repository manager.
 
 === Networking
 
