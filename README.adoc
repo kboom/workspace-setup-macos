@@ -14,7 +14,7 @@
 :autoenv: https://github.com/inishchith/autoenv[autoenv]
 :thefuck: https://github.com/nvbn/thefuck[thefuck]
 :netshoot: https://github.com/nicolaka/netshoot[netshoot]
-:sourcetree: https://www.sourcetreeapp.com[sourcetree]
+:sourcetree: https://www.sourcetreeapp.com[Sourcetree]
 
 = link:README.adoc[Home]
 
