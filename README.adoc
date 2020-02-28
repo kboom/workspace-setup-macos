@@ -16,6 +16,7 @@
 :netshoot: https://github.com/nicolaka/netshoot[netshoot]
 :sourcetree: https://www.sourcetreeapp.com[Sourcetree]
 :omnifocus: https://www.omnigroup.com/omnifocus[OmniFocus]
+:omnigraffle: https://www.omnigroup.com/omnigraffle[OmniGraffle]
 
 = link:README.adoc[Home]
 
@@ -73,6 +74,9 @@ Can present dependency trees of Kubernetes resources.
 
 {omnifocus}::
 Great task management software.
+
+{omnigraffle}::
+Leading charting software. Destroys anything you know.
 
 {sourcetree}::
 The best GIT repository manager.
