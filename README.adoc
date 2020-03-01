@@ -20,6 +20,7 @@
 :marginnote: https://www.marginnote.com[MarginNote]
 :mosaic: https://www.lightpillar.com/mosaic.html[Mosaic]
 :apptivate: http://apptivateapp.com[Apptivate]
+:enpass: https://www.enpass.io[Enpass]
 
 = link:README.adoc[Home]
 
@@ -95,6 +96,9 @@ Best workspace window organizer out there.
 
 {apptivate}::
 Easily assign global shortcuts to your applications. Pressing a combination will bring the application forward instantly if opened or open if not present.
+
+{enpass}::
+Free but comprehensive and goregously designed password manager with actually working extensions for all major browsers including Safari.
 
 === Tricks
 
