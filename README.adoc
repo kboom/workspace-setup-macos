@@ -25,6 +25,7 @@
 :trickster: https://www.apparentsoft.com/trickster[Trickster]
 :hazeover: https://hazeover.com[HazeOver]
 :gifox: https://gifox.io[Gifox]
+:dash: https://kapeli.com/dash[Dash]
 
 = link:README.adoc[Home]
 
@@ -115,6 +116,9 @@ Distraction dimmer that dimms inactive windows so you can focus on the active on
 
 {gifox}::
 Great and lightweight alternative to Snagit. Perfect for recording and quickly sharing lightweight window recordings.
+
+{dash}::
+Great and standardized documentation browser application. Most languages, frameworks and libraries are there!
 
 === Tricks
 
