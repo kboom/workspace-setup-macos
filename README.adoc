@@ -118,7 +118,7 @@ Distraction dimmer that dimms inactive windows so you can focus on the active on
 Great and lightweight alternative to Snagit. Perfect for recording and quickly sharing lightweight window recordings.
 
 {dash}::
-Great and standardized documentation browser application. Most languages, frameworks and libraries are there!
+Great and standardized documentation browser application. Most languages, frameworks and libraries are there! Comes with integration with all popular code editors for quick searching.
 
 === Tricks
 
