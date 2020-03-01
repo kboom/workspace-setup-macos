@@ -23,6 +23,7 @@
 :enpass: https://www.enpass.io[Enpass]
 :magnet: https://magnet.crowdcafe.com[Magnet]
 :trickster: https://www.apparentsoft.com/trickster[Trickster]
+:hazeover: https://hazeover.com[HazeOver]
 
 = link:README.adoc[Home]
 
@@ -107,6 +108,9 @@ Extremelly simple, predictable and neat window manager.
 
 {trickster}::
 Keeps recently used items in the top bar icon with quick search capability.
+
+{hazeover}::
+Distraction dimmer that dimms inactive windows so you can focus on the active one. Great for people who overuse maximization to their own peril.
 
 === Tricks
 
