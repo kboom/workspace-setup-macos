@@ -21,6 +21,7 @@
 :mosaic: https://www.lightpillar.com/mosaic.html[Mosaic]
 :apptivate: http://apptivateapp.com[Apptivate]
 :enpass: https://www.enpass.io[Enpass]
+:magnet: https://magnet.crowdcafe.com[Magnet]
 
 = link:README.adoc[Home]
 
@@ -99,6 +100,9 @@ Easily assign global shortcuts to your applications. Pressing a combination will
 
 {enpass}::
 Free but comprehensive and goregously designed password manager with actually working extensions for all major browsers including Safari.
+
+{magnet}::
+Extremelly simple, predictable and neat window manager.
 
 === Tricks
 
