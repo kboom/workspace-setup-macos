@@ -17,6 +17,7 @@
 :sourcetree: https://www.sourcetreeapp.com[Sourcetree]
 :omnifocus: https://www.omnigroup.com/omnifocus[OmniFocus]
 :omnigraffle: https://www.omnigroup.com/omnigraffle[OmniGraffle]
+:marginnote: https://www.marginnote.com[MarginNote]
 
 = link:README.adoc[Home]
 
@@ -83,6 +84,9 @@ The best GIT repository manager.
 
 {proxyman}::
 A tool for sniffing the network traffic in a pleasant and MacOS-compliant way.
+
+{marginnote}::
+Cross-reference documents with annotations on a mindmap in a single application.
 
 === Tricks
 
