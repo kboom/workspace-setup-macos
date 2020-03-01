@@ -19,6 +19,7 @@
 :omnigraffle: https://www.omnigroup.com/omnigraffle[OmniGraffle]
 :marginnote: https://www.marginnote.com[MarginNote]
 :mosaic: https://www.lightpillar.com/mosaic.html[Mosaic]
+:apptivate: http://apptivateapp.com[Apptivate]
 
 = link:README.adoc[Home]
 
@@ -91,6 +92,9 @@ Cross-reference documents with annotations on a mindmap in a single application.
 
 {mosaic}::
 Best workspace window organizer out there.
+
+{apptivate}::
+Easily assign global shortcuts to your applications. Pressing a combination will bring the application forward instantly if opened or open if not present.
 
 === Tricks
 
