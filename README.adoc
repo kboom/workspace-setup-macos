@@ -18,6 +18,7 @@
 :omnifocus: https://www.omnigroup.com/omnifocus[OmniFocus]
 :omnigraffle: https://www.omnigroup.com/omnigraffle[OmniGraffle]
 :marginnote: https://www.marginnote.com[MarginNote]
+:mosaic: https://www.lightpillar.com/mosaic.html[Mosaic]
 
 = link:README.adoc[Home]
 
@@ -87,6 +88,9 @@ A tool for sniffing the network traffic in a pleasant and MacOS-compliant way.
 
 {marginnote}::
 Cross-reference documents with annotations on a mindmap in a single application.
+
+{mosaic}::
+Best workspace window organizer out there.
 
 === Tricks
 
