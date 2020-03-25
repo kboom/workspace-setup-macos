@@ -11,10 +11,26 @@
 :exa: https://github.com/ogham/exa[exa]
 :bat: https://github.com/sharkdp/bat[bat]
 :htop: https://github.com/hishamhm/htop[htop]
+:autoenv: https://github.com/inishchith/autoenv[autoenv]
+:thefuck: https://github.com/nvbn/thefuck[thefuck]
+:netshoot: https://github.com/nicolaka/netshoot[netshoot]
+:sourcetree: https://www.sourcetreeapp.com[Sourcetree]
+:omnifocus: https://www.omnigroup.com/omnifocus[OmniFocus]
+:omnigraffle: https://www.omnigroup.com/omnigraffle[OmniGraffle]
+:marginnote: https://www.marginnote.com[MarginNote]
+:mosaic: https://www.lightpillar.com/mosaic.html[Mosaic]
+:apptivate: http://apptivateapp.com[Apptivate]
+:enpass: https://www.enpass.io[Enpass]
+:magnet: https://magnet.crowdcafe.com[Magnet]
+:trickster: https://www.apparentsoft.com/trickster[Trickster]
+:hazeover: https://hazeover.com[HazeOver]
+:gifox: https://gifox.io[Gifox]
+:dash: https://kapeli.com/dash[Dash]
+:itsycal: https://www.mowglii.com/itsycal/[Itsycal]
 
 = link:README.adoc[Home]
 
-The list of tools that every developer should have installed.
+The list of tools that every developer might want to have installed.
 
 ---
 
@@ -48,6 +64,8 @@ Modern replacement for cat.
 {htop}::
 Modern replacement for htop.
 
+{thefuck}::
+Corrects the last ill-entered command.
 
 == Kubernetes
 
@@ -64,12 +82,107 @@ Can present dependency trees of Kubernetes resources.
 
 == MacOS
 
-=== Networking
+{omnifocus}::
+Great task management software.
+
+{omnigraffle}::
+Leading charting software. Destroys anything you know.
+
+{sourcetree}::
+The best GIT repository manager.
 
 {proxyman}::
 A tool for sniffing the network traffic in a pleasant and MacOS-compliant way.
+
+{marginnote}::
+Cross-reference documents with annotations on a mindmap in a single application.
+
+{mosaic}::
+Best workspace window organizer out there.
+
+{apptivate}::
+Easily assign global shortcuts to your applications. Pressing a combination will bring the application forward instantly if opened or open if not present.
+
+{enpass}::
+Free but comprehensive and goregously designed password manager with actually working extensions for all major browsers including Safari.
+
+{magnet}::
+Extremelly simple, predictable and neat window manager.
+
+{trickster}::
+Keeps recently used items in the top bar icon with quick search capability.
+
+{hazeover}::
+Distraction dimmer that dimms inactive windows so you can focus on the active one. Great for people who overuse maximization to their own peril.
+
+{gifox}::
+Great and lightweight alternative to Snagit. Perfect for recording and quickly sharing lightweight window recordings.
+
+{dash}::
+Great and standardized documentation browser application. Most languages, frameworks and libraries are there! Comes with integration with all popular code editors for quick searching.
+
+{itsycal}::
+Small and neat calendar widget in your taskbar, fully integrated with the system calendar.
 
 === Tricks
 
 Dim the icons of hidden applications in dock::
 `defaults write com.apple.Dock showhidden -bool YES && killall Dock`
+
+Enable highlight hover effect for the grid view of a stack (Dock)::
+`defaults write com.apple.dock mouse-over-hilite-stack -bool true`
+
+Set the icon size of Dock items to 36 pixels::
+`defaults write com.apple.dock tilesize -int 36`
+
+Change minimize/maximize window effect::
+`defaults write com.apple.dock mineffect -string "scale"`
+
+Minimize windows into their application’s icon::
+`defaults write com.apple.dock minimize-to-application -bool true`
+
+Enable spring loading for all Dock items::
+`defaults write com.apple.dock enable-spring-load-actions-on-all-items -bool true`
+
+Show indicator lights for open applications in the Dock::
+`defaults write com.apple.dock show-process-indicators -bool true`
+
+Show only open applications in the Dock::
+`defaults write com.apple.dock static-only -bool true`
+
+Don’t animate opening applications from the Dock::
+`defaults write com.apple.dock launchanim -bool false`
+
+Speed up Mission Control animations::
+`defaults write com.apple.dock expose-animation-duration -float 0.1`
+
+Disable Dashboard::
+`defaults write com.apple.dashboard mcx-disabled -bool true`
+
+Don’t show Dashboard as a Space::
+`defaults write com.apple.dock dashboard-in-overlay -bool true`
+
+Don’t automatically rearrange Spaces based on most recent use::
+`defaults write com.apple.dock mru-spaces -bool false`
+
+Remove the auto-hiding Dock delay::
+`defaults write com.apple.dock autohide-delay -float 0`
+
+Remove the animation when hiding/showing the Dock::
+`defaults write com.apple.dock autohide-time-modifier -float 0`
+
+Automatically hide and show the Dock::
+`defaults write com.apple.dock autohide -bool true`
+
+Make Dock icons of hidden applications translucent::
+`defaults write com.apple.dock showhidden -bool true`
+
+Don’t show recent applications in Dock::
+`defaults write com.apple.dock show-recents -bool false`
+
+== Docker
+
+=== Useful containers
+
+{netshoot}::
+A swiss knife for network debugging.
