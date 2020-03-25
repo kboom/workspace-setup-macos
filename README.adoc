@@ -26,6 +26,7 @@
 :hazeover: https://hazeover.com[HazeOver]
 :gifox: https://gifox.io[Gifox]
 :dash: https://kapeli.com/dash[Dash]
+:itsycal: https://www.mowglii.com/itsycal/[Itsycal]
 
 = link:README.adoc[Home]
 
@@ -119,6 +120,9 @@ Great and lightweight alternative to Snagit. Perfect for recording and quickly s
 
 {dash}::
 Great and standardized documentation browser application. Most languages, frameworks and libraries are there! Comes with integration with all popular code editors for quick searching.
+
+{itsycal}::
+Small and neat calendar widget in your taskbar, fully integrated with the system calendar.
 
 === Tricks
 
