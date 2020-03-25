@@ -50,3 +50,9 @@ kubectl cordon <name>
 
 # Display resource (cpu/memory/storage) usage
 kubectl top <type>
+
+# Delete all pods matching pattern in the current namespace
+kubectl get po --no-headers=true | awk '/<pattern>/{print $1}' | xargs kubectl delete po --grace-period=0 --force
+
+# List events in order
+kubectl get events --sort-by='{.lastTimestamp}'

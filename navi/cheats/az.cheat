@@ -1,0 +1,2 @@
+# Login into ACR
+az acr login --name <acr_name>

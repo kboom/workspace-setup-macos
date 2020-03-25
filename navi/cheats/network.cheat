@@ -24,3 +24,6 @@ ifconfig \
   | grep -Eo '([0-9]*\.){3}[0-9]*' \
   | grep -v '127.0.0.1' \
   | tail -n1
+
+# Find devices connected to private network
+nmap -sn 192.168.1.0/24
