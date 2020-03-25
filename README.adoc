@@ -30,7 +30,7 @@
 
 = link:README.adoc[Home]
 
-The list of tools that every developer should have installed.
+The list of tools that every developer might want to have installed.
 
 ---
 
