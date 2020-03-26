@@ -70,7 +70,7 @@ Corrects the last ill-entered command.
 
 == Node
 
-::{typescript-starter}
+{typescript-starter}::
 Great way to set up a new typescript project through a nice wizzard.
 
 == Kubernetes
