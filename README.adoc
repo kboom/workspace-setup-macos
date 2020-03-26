@@ -28,6 +28,7 @@
 :dash: https://kapeli.com/dash[Dash]
 :itsycal: https://www.mowglii.com/itsycal/[Itsycal]
 :typescript-starter: https://github.com/bitjson/typescript-starter[Typescript-starter]
+:ava: https://github.com/avajs/ava[Ava]
 
 = link:README.adoc[Home]
 
@@ -72,6 +73,9 @@ Corrects the last ill-entered command.
 
 {typescript-starter}::
 Great way to set up a new typescript project through a nice wizzard.
+
+{ava}::
+Most popular test runner for Node today.
 
 == Kubernetes
 
