@@ -27,6 +27,7 @@
 :gifox: https://gifox.io[Gifox]
 :dash: https://kapeli.com/dash[Dash]
 :itsycal: https://www.mowglii.com/itsycal/[Itsycal]
+:typescript-starter: https://github.com/bitjson/typescript-starter[Typescript-starter]
 
 = link:README.adoc[Home]
 
@@ -66,6 +67,11 @@ Modern replacement for htop.
 
 {thefuck}::
 Corrects the last ill-entered command.
+
+== Node
+
+::{typescript-starter}
+Great way to set up a new typescript project through a nice wizzard.
 
 == Kubernetes
 
