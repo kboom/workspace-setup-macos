@@ -1,0 +1,10 @@
+% gradle
+
+# list all dependencies
+gradle -p <module> -q dependencies --configuration <configuration>
+
+# dependency insight
+gradle -p <module> dI --dependency <dependency> --configuration <configuration>
+
+$ module: ls
+$ configuration: gradle --console plain dependencies | fgrep ' - ' | cut -f1 -d' '
