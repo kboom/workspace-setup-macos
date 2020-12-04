@@ -1,5 +1,14 @@
 % git
 
+# Show commit summary between two versions
+git log --date=short --pretty='format:%C(auto)%H | %ad | %s' --ancestry-path <from>..<to>
+
+# Show commit summary since until now
+git log --date=short --pretty='format:%C(auto)%H | %ad | %s' --ancestry-path <from>..<current_revision>
+
+# Delete all local branches other than master
+git branch | grep -v "master" | xargs git branch -D 
+
 # Set global git user name
 git config --global user.name <name>
 
@@ -106,3 +115,4 @@ $ branch: git branch | awk '{print $NF}'
 $ toplevel_directory: git rev-parse --show-toplevel
 $ unstaged_files: git status --untracked-files=no -s --porcelain | awk '{print $NF}' --- --multi true
 $ changed_files: git status --untracked-files=all -s --porcelain | awk '{print $NF}' --- --multi true
+$ current_revision: git rev-parse HEAD

@@ -1,4 +1,6 @@
 % network
+# List listening ports
+netstat -an | grep LISTEN
 
 # Kill a process running on a given port
 lsof -i :<port> \
