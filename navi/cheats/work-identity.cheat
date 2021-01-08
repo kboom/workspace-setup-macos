@@ -1,0 +1,4 @@
+% identity, grafana
+
+# Retrieve identity grafana password
+kubectl get secret --context eu-west-1b-nonprod --namespace identity-management grafana-identity -o jsonpath="{.data.grafana-admin-password}" | base64 --decode ; echo

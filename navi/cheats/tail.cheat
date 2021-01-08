@@ -1,0 +1,4 @@
+% less, text, files
+
+# Print contents of globed files
+tail -n +1 <glob>
