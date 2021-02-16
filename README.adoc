@@ -29,6 +29,7 @@
 :itsycal: https://www.mowglii.com/itsycal/[Itsycal]
 :typescript-starter: https://github.com/bitjson/typescript-starter[Typescript-starter]
 :ava: https://github.com/avajs/ava[Ava]
+:ctop: https://github.com/bcicen/ctop[ctop]
 
 = link:README.adoc[Home]
 
@@ -65,6 +66,9 @@ Modern replacement for cat.
 
 {htop}::
 Modern replacement for htop.
+
+{ctop}::
+Top for containers
 
 {thefuck}::
 Corrects the last ill-entered command.
