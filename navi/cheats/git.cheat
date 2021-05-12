@@ -1,5 +1,8 @@
 % git
 
+# Push empty commit to trigger the build
+git commit --allow-empty -m "Trigger Build" && git push origin HEAD
+
 # Show commit summary between two versions
 git log --date=short --pretty='format:%C(auto)%H | %ad | %s' --ancestry-path <from>..<to>
 

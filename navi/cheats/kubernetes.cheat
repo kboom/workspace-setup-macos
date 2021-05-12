@@ -1,5 +1,23 @@
 % kubernetes, k8s
 
+# Print autoscaling log
+kubectl get hpa.v2beta2.autoscaling -o yaml | bat -l yaml
+
+# Print all pods scheduled on a node in the current namespace
+kubectl get pods --all-namespaces -o wide --field-selector spec.nodeName=<node>
+
+# Print 10 most CPU-hungry pods and containers
+kubectl top pod --containers | sort --reverse --key 3 --numeric | head -10
+
+# Print 10 most Memory-hungry pods and containers
+kubectl top pod --containers | sort --reverse --key 4 --numeric | head -10
+
+# Print most CPU-hungry containers in selected pods
+kubectl top pod --containers | grep -E "<pod_pattern>" | sort --reverse --key 4 --numeric
+
+# Watch most CPU-hungry containers in selected pods
+watch -n 5 "kubectl top pod --containers | grep -E \"<pod_pattern>\" | sort --reverse --key 4 --numeric"
+
 # Print all contexts
 kubectl config get-contexts
 

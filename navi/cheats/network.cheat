@@ -1,4 +1,8 @@
 % network
+
+# Find devices connected to local network
+nmap -sn 192.168.1.0/24
+
 # List listening ports
 netstat -an | grep LISTEN
 

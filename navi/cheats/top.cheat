@@ -1,0 +1,9 @@
+
+% top
+
+# Print batch process top results
+ top -1 -bSHEk | awk -v RS='top - ' -v FS='\n' '{date=substr($0,0,9); start=0; for(i=1;i<=NF-2;i++) { if(match($i,/ PPID /)) start++; else if(start>0) print date,$i }}'
+ 
+ # Print batch CPU usage history
+ top -1 -bSHEk | awk -v RS='top - ' -v FS='\n' '{date=substr($0,0,9); load=$1; gsub(/^.*load average: /, "", load); for(i=3;i<=NF;i++) { if(match($i,/Mem/)) break; l=substr($i,5); sub(/ :/,",",l); gsub(/ [a-z]+/,"",l); printf "%s, %s, %s\n",date,load,l }}' | sed 's/ //g'
+ 
