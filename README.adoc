@@ -65,7 +65,7 @@ Modern replacement for ls.
 Modern replacement for cat.
 
 {htop}::
-Modern replacement for htop.
+Modern replacement for top.
 
 {ctop}::
 Top for containers
