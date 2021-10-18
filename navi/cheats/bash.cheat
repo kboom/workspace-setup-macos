@@ -1,2 +1,5 @@
 # Compare two files
 diff -u <first_file> <second_file> | bat
+
+# Execute command in all subdirectories
+find some/dir -type f -execdir <command> {} \;
