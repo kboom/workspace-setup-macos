@@ -1,5 +1,8 @@
 % git
 
+# Run a git command in all git subdirectories of a current working directory
+find . -type d -name .git -exec git --git-dir={} --work-tree=$PWD/{}/.. <command> \;
+
 # Push empty commit to trigger the build
 git commit --allow-empty -m "Trigger Build" && git push origin HEAD
 
